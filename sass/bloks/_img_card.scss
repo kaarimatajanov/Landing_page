@@ -1,0 +1,27 @@
+.img_card{
+
+    position: relative;
+    width: 385px;
+
+    & + & {
+        margin-left: 22px;
+    }
+}
+
+
+.img_card-img {
+    border-radius: 20px 20px 0px 20px;
+
+    .img_card--raunder & {
+        border-radius: 20px;
+        border-radius: 0px 20px 20px 0px;
+        min-width: 300px;
+    }
+}
+
+
+.img-card__info{
+    position: absolute;
+    right: -46px;
+    bottom: 87px;
+}
